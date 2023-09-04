@@ -19,7 +19,7 @@ galleryItems.forEach((item) => {
 
   listEl.append(listItemEl);
 
-  // eveniment de clic
+  // eveniment de click
   const imageEl = listItemEl.querySelector(".gallery__image");
   imageEl.addEventListener("click", () => {
     openImageInLightbox(item.original, item.description);
